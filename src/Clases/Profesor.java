@@ -39,7 +39,7 @@ public class Profesor extends Persona{
     }
     
     @Override
-    public String toString() {
+    public String mostrarInformacion() {
         return "Profesor{" + "profesor=" + profesor + ", especialidad=" + especialidad + ", tipoContrato=" + tipoContrato + '}';
     }
 }

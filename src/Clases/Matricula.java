@@ -39,6 +39,6 @@ public class Matricula {
 
     @Override
     public String toString() {
-        return "Matricula{" + "estudinte=" + estudinte + ", curso=" + curso + ", fechaMatricula=" + fechaMatricula + '}';
+        return "Matricula : " + "estudinte=" + estudinte + ", curso=" + curso + ", fechaMatricula=" + fechaMatricula + ")";
     }
 }

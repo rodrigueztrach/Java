@@ -1,7 +1,6 @@
 
 package Clases;
 
-
 public class Estudiantes extends Persona{
 
     private String carnet;
@@ -38,6 +37,6 @@ public class Estudiantes extends Persona{
 
     @Override
     public String toString() {
-        return "Estudiante{" + "carnet=" + carnet + ", carrera=" + carrera + ", nivel=" + nivel + '}';
+        return "Estudiante :" + "carnet=" + carnet + ", carrera=" + carrera + ", nivel=" + nivel + ')';
     }
 }

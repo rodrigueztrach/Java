@@ -47,9 +47,8 @@ public class Persona {
         this.telefono = telefono;
     }
 
-    @Override
-    public String toString() {
-        return "Persona{" + "nombres=" + nombres + ", apellidos=" + apellidos + ", email=" + email + ", telefono=" + telefono + '}';
+    public String mostrarInformacion() {
+        return "Persona : " + "nombres=" + nombres + ", apellidos=" + apellidos + ", email=" + email + ", telefono=" + telefono + ')';
     }
 
    

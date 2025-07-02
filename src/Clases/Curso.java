@@ -69,8 +69,7 @@ public class Curso {
     }
     
 
-    @Override
-    public String toString() {
-        return "Curso{" + "Codigo=" + Codigo + ", nombre=" + nombre + ", descripcion=" + descripcion + ", profesor=" + profesor + ", capacidadMaxima=" + capacidadMaxima + ", listaEstudiantes=" + listaEstudiantes + '}';
+    public String mostrarInformacion() {
+        return "Curso :" + "Codigo=" + Codigo + ", nombre=" + nombre + ", descripcion=" + descripcion + ", profesor=" + profesor + ", capacidadMaxima=" + capacidadMaxima + ", listaEstudiantes=" + listaEstudiantes + ')';
     }
 }
